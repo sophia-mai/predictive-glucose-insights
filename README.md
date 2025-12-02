@@ -24,4 +24,12 @@ A Long Short-Term Memory (LSTM) neural network is used to predict future glucose
 The model is trained on a split dataset and evaluated based on its ability to predict 2-hour post-meal glucose values.
 
 ## Setup and Installation
+To run this notebook, you will need to:
+1. **Mount Google Drive:**
+The notebook uses files stored in Google Drive. Ensure you have mounted your Google Drive to `/content/drive`.
+2. 
+
+
+
+
 
