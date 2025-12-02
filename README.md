@@ -8,5 +8,5 @@ This project aims to develop a personalized glucose prediction and meal recommen
 By combining time series analysis and machine learning, this system seeks to understand how daily behaviors affect blood glucose trends and to provide recommendations for improving glycemic stability.
 
 ## Data Sources
-###1. Dexcom CGM Data:
+### 1. Dexcom CGM Data:
 
