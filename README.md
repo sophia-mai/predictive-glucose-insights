@@ -27,7 +27,11 @@ The model is trained on a split dataset and evaluated based on its ability to pr
 To run this notebook, you will need to:
 1. **Mount Google Drive:**
 The notebook uses files stored in Google Drive. Ensure you have mounted your Google Drive to `/content/drive`.
-2. 
+2. **Dataset Paths:**
+Update the paths to your CSV files in the relevant cells if they differ from the provided paths.
+ *
+ `Clarity_Export_Parmar_Henna_2025-11_03_231446.csv`
+4. **
 
 
 
