@@ -14,3 +14,18 @@ Continous Glucose Monitoring data, including timestamps, glucose values, estimat
 ### 2. Apple Helath Data:
 Exported health metrics from Apple Health, such as heart rate, exercise time, and step count.
 
+## Methodology
+### 1. Data Harmonization:
+Integration of Dexcom and Apple Health Data Based on timestamps.
+
+### 2. Feature Engineering:
+Extraction of historical glucose and current carbohydrate intake as features for the model.
+
+### 3. Model Architecture:
+A Long Short-Term Memory (LSTM) neural network is used to predict future glucose levels.
+
+### 4. Training and Evaluation:
+The model is trained on a split dataset and evaluated based on its ability to predict 2-hour post-meal glucose values.
+
+## Setup and Installation
+
