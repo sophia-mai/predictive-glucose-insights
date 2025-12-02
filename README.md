@@ -9,4 +9,8 @@ By combining time series analysis and machine learning, this system seeks to und
 
 ## Data Sources
 ### 1. Dexcom CGM Data:
+Continous Glucose Monitoring data, including timestamps, glucose values, estimated insulin, and estimated carb values.
+
+### 2. Apple Helath Data:
+Exported health metrics from Apple Health, such as heart rate, exercise time, and step count.
 
