@@ -8,23 +8,19 @@ This project aims to develop a personalized glucose prediction and meal recommen
 By combining time series analysis and machine learning, this system seeks to understand how daily behaviors affect blood glucose trends and to provide recommendations for improving glycemic stability.
 
 ## Data Sources
-### 1. Dexcom CGM Data:
+ 1. **Dexcom CGM Data:**
 Continous Glucose Monitoring data, including timestamps, glucose values, estimated insulin, and estimated carb values.
-
-### 2. Apple Helath Data:
+2. **Apple Helath Data:**
 Exported health metrics from Apple Health, such as heart rate, exercise time, and step count.
 
 ## Methodology
-### 1. Data Harmonization:
+1. **Data Harmonization:**
 Integration of Dexcom and Apple Health Data Based on timestamps.
-
-### 2. Feature Engineering:
+2. **Feature Engineering:**
 Extraction of historical glucose and current carbohydrate intake as features for the model.
-
-### 3. Model Architecture:
+3. **Model Architecture:**
 A Long Short-Term Memory (LSTM) neural network is used to predict future glucose levels.
-
-### 4. Training and Evaluation:
+4. **Training and Evaluation:**
 The model is trained on a split dataset and evaluated based on its ability to predict 2-hour post-meal glucose values.
 
 ## Setup and Installation
