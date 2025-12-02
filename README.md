@@ -27,17 +27,16 @@ The model is trained on a split dataset and evaluated based on its ability to pr
 To run this notebook, you will need to:
 1. **Mount Google Drive:**
 The notebook uses files stored in Google Drive. Ensure you have mounted your Google Drive to `/content/drive`.
-2. **Dataset Paths:**
-Update the paths to your CSV files in the relevant cells if they differ from the provided paths.
- *
- `Clarity_Export_Parmar_Henna_2025-11_03_231446.csv`
- *
-`HealthAutoExport-2025-10-20-20-25-11-03.csv`
- *
-`Clarity_Export_Parmar_Henna_2025-11-22_205142.csv` (for validation)
+2. **Dataset Paths:** Update the paths to your CSV files in the relevant cells if they differ from the provided paths.
+    *   `Clarity_Export_Parmar_Henna_2025-11-03_231446.csv`
+    *   `HealthAutoExport-2025-10-20-2025-11-03.csv`
+    *   `Clarity_Export_Parmar_Henna_2025-11-22_205142.csv` (for validation)
+3. **Dependencies:**
+All necessary libraries (pandas, numpy, torch, matplotlib) are standard and should be avaliable in a typical Colab environment. If not, install them using `pip install <library_name>`.
 
-4. **Dependencies:**
-5. 
+## Usage
+ 
+
 
 
 
