@@ -35,10 +35,16 @@ The notebook uses files stored in Google Drive. Ensure you have mounted your Goo
 All necessary libraries (pandas, numpy, torch, matplotlib) are standard and should be avaliable in a typical Colab environment. If not, install them using `pip install <library_name>`.
 
 ## Usage
- 
+1. **Execute Cells Sequentially:**
+Run all code cells from top to bottom.
+2. **Option 1 vs. Option 2**
+The notebook presents two options for estimating carbs and insulin. Option 1 is stated to be more accurate.
+3. **Model Training:**
+The LSTM model is trained to predict post-meal glucose responses.
+4. **Visualization:**
+Plots are generated to visualize the model's prediction against actual glucose values.
 
-
-
-
-
-
+## Future Improvements
+* Incorporate more physiological parameters into the model.
+* Explore more advanced neural network architectures.
+* Improve hyperparameter tuning for better performance.
